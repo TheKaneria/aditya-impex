@@ -1,3 +1,68 @@
-node_modules
+# Node modules
+node_modules/
 
-build
+# Build output directories
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Parcel-bundler cache
+.cache/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage reports
+coverage/
+
+# Testing artifacts
+*.lcov
+jest-results/
+
+# React Native files
+.expo/
+
+# Local history
+.history/
+
+# CI/CD
+*.pid
+*.seed
+*.bak
+*.log
+
+# Generated files by Yarn or npm
+.pnp
+.pnp.js
+
+# Others
+*.zip
+*.tar.gz
+*.7z
